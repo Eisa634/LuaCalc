@@ -3,7 +3,6 @@ operation = io.read()
 
 io.write("Enter Number: ")
 num1 = io.read("*n")
-
 io.write("Enter Second Number: ")
 num2 = io.read("*n")
 
@@ -17,4 +16,5 @@ elseif operation == "/" then
 	num3 = num1 / num2
 end
 
-io.write("The answer is: " ,num3, )
+io.write("The answer is: ")
+io.write(num3)
